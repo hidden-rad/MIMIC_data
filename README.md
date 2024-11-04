@@ -6,7 +6,8 @@
 ### 1. Open the Terminal.
 
 ### 2. Navigate to the directory where you want to save the file.
-	> 	cd /path/to/your/directory
+	> 	
+ 		cd /path/to/your/directory
 
 ### 3. Prepare a urls.txt file. The urls.txt file should contain the URL for each directory you want to download. For example, the
 	>
@@ -15,7 +16,8 @@
 		...
 
 ### 4. Use the wget command to download only the directories in the urls.txt. Use the following command
-	> wget -r -N -c -np --user 'username' --ask-password -i urls.txt
+	> 
+  		wget -r -N -c -np --user 'username' --ask-password -i urls.txt
 
 ### 5. Command descriptions:
 		-r: download recursively.
