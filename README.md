@@ -15,7 +15,7 @@
 		https://physionet.org/files/mimic-cxr/2.1.0/files/p17/p17167982/
 		...
 
-### 4. Use the wget command to download only the directories in the urls.txt. Use the following command
+### 4. Download only the files in the directory corresponding to the text files (Task1_urls_dcm.txt / Task1_urls_jpg.txt / Task2_urls_dcm.txt / Task2_urls_jpg.txt) using the wget command. Use the following command.
 	> 
   		wget -r -N -c -np --user 'username' --ask-password -i urls.txt
 
