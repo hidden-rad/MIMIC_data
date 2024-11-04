@@ -1,5 +1,5 @@
-# MIMIC-CXR / JPG data
-## Download the MIMIC data we are targeting
+# MIMIC-CXR / JPG data Download the MIMIC data we are targeting
+To download the corresponding 'MIMIC-CXR / JPG' file, you need a license signed by Physionet in the data usage agreement.
 
 ## Step-by-Step Instructions
 
