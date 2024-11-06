@@ -16,7 +16,7 @@ To download the corresponding 'MIMIC-CXR / JPG' file, you need a license signed 
 		...
 
 ### 4. Download only the files in the directory corresponding to the text files using the wget command. Use the following command.
-(Task1_urls_dcm.txt / Task1_urls_jpg.txt / Task2_urls_dcm.txt / Task2_urls_jpg.txt) 
+(Task1_test_dcm.txt / Task1_test_jpg.txt / Task1_train_dcm.txt / Task1_train_jpg.txt) 
 
 	> 
   		wget -r -N -c -np --user 'username' --ask-password -i urls.txt
