@@ -1,6 +1,6 @@
 # How to get Task1 input data from the MIMIC database
 
-- (Important) You will need a signed license from Physionet's Data Use Agreement to download the 'MIMIC' file used in that Task1.
+- The MIMIC licensing procedure is described in https://github.com/hidden-rad/Task1. 
 
 ## Task1.text File Description<br/>
 	* Task1_test_dcm.txt: A list of MIMIC data for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_test.
