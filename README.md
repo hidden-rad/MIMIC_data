@@ -10,11 +10,11 @@ Task1.text File Description
 
 # Instructions
 
-1. prepare a MIMIC licensed account.
+1. Prepare a MIMIC licensed account.
 
-2. download the Task1.text file (train, test) according to the extension of the image you want to use (save it in the path to receive data)
+2. Download the Task1.text file (train, test) according to the extension of the image you want to use (save it in the path to receive data)
 
-3. open a terminal, then set the path to save the data.
+3. Open a terminal, then set the path to save the data.
 	>
 		 cd /path/to/your/directory
 
