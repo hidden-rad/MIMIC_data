@@ -18,10 +18,10 @@ Task1.text File Description
 	>
 		 cd /path/to/your/directory
 
-4. Use the wget code to download the MIMIC data, where 'username' is your account (ID) on Physionet, and 'Task1.txt' is the file downloaded in step 2.
+4. Use the wget code to download the MIMIC data, where <span style='background-color: #fff5b1'>'username'</span> is your account (ID) on Physionet, and <span style='background-color: #fff5b1'>'Task1.txt'</span> is the file downloaded in step 2.
 
 	>
-		wget -r -N -c -np --user <span style='background-color: #fff5b1'>'username'</span> --ask-password -i <span style='background-color: #fff5b1'>Task1.txt</span>
+		wget -r -N -c -np --user 'username' --ask-password -i Task1.txt
 	
 	> 
 	
