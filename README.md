@@ -3,10 +3,10 @@
 - (Important) You will need a signed license from Physionet's Data Use Agreement to download the 'MIMIC' file used in that Task1.
 
 Task1.text File Description
-	- Task1_test_dcm.txt: A list of MIMIC data for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_test.
-	- Task1_test_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' and 'medical report' used in Task1_test.
-	- Task1_train_dcm.txt: MIMIC data list for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_train.
-	- Task1_train_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' and 'medical report' used in Task1_train.
+	* Task1_test_dcm.txt: A list of MIMIC data for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_test.
+	* Task1_test_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' and 'medical report' used in Task1_test.
+	* Task1_train_dcm.txt: MIMIC data list for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_train.
+	* Task1_train_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' and 'medical report' used in Task1_train.
 
 # Instructions
 
