@@ -1,43 +1,38 @@
-# MIMIC-CXR / JPG data Download the MIMIC data we are targeting
-To download the corresponding 'MIMIC-CXR / JPG' file, you need a license signed by Physionet in the data usage agreement.
+# How to get Task1 input data from the MIMIC database
 
-## Step-by-Step Instructions
+- (Important) You will need a signed license from Physionet's Data Use Agreement to download the 'MIMIC' file used in that Task1.
 
-### 1. Open the Terminal.
+Task1.text File Description
+	- Task1_test_dcm.txt: A list of MIMIC data for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_test.
+	- Task1_test_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' and 'medical report' used in Task1_test.
+	- Task1_train_dcm.txt: MIMIC data list for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_train.
+	- Task1_train_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' and 'medical report' used in Task1_train.
 
-### 2. Navigate to the directory where you want to save the file.
-	> 	
- 		cd /path/to/your/directory
+# Instructions
 
-### 3. Prepare a urls.txt file. The urls.txt file should contain the URL for each directory you want to download. For example, the
+1. prepare a MIMIC licensed account.
+
+2. download the Task1.text file (train, test) according to the extension of the image you want to use (save it in the path to receive data)
+
+3. open a terminal, then set the path to save the data.
 	>
-		https://physionet.org/files/mimic-cxr/2.1.0/files/p17/p17938416/
-		https://physionet.org/files/mimic-cxr/2.1.0/files/p17/p17167982/
-		...
+		 cd /path/to/your/directory
 
-### 4. Download only the files in the directory corresponding to the text files using the wget command. Use the following command.
-(Task1_test_dcm.txt / Task1_test_jpg.txt / Task1_train_dcm.txt / Task1_train_jpg.txt) 
+4. Use the wget code to download the MIMIC data, where 'username' is your account (ID) on Physionet, and 'Task1.txt' is the file downloaded in step 2.
 
+	>
+		wget -r -N -c -np --user <span style='background-color: #fff5b1'>'username'</span> --ask-password -i <span style='background-color: #fff5b1'>Task1.txt</span>
+	
 	> 
-  		wget -r -N -c -np --user 'username' --ask-password -i urls.txt
-
-### 5. Command descriptions:
+	
+		Command descriptions:
 		-r: download recursively.
 		-N: Download only files newer than those already downloaded.
 		-c: Continue interrupted downloads.
 		-np: Do not ascend to the parent directory.
-		--user: username (  ).
+		--user: Physionet username (  ).
 		--ask-password: Ask for password.
-		-i urls.txt: Use the list of URLs in the urls.txt file.
+		-i Task1.txt: List of Task1 target data file.
 
-### 6. wget will ask you to enter a password. wget will download the directories listed in urls.txt after you enter the password.
+5. If you entered the code in step 4 correctly, you will be prompted to enter your password. Enter your Physionet password and the download will proceed, which may take a while depending on your connection.
 
-### 7. If you want to download JPG files, change 'mimic-cxr' to 'mimic-cxr-jpg' in step '3.'.
-	>
-		https://physionet.org/files/mimic-cxr/2.1.0/files/p17/p17938416/
-		https://physionet.org/files/mimic-cxr/2.1.0/files/p17/p17167982/
-		...
-		-------------------------------------------------------------------------------------------------------------------------------------
-		https://physionet.org/files/mimic-cxr-jpg/2.1.0/files/p17/p17938416/
-		https://physionet.org/files/mimic-cxr-jpg/2.1.0/files/p17/p17167982/
-		...
