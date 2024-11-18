@@ -2,8 +2,8 @@
 
 - The MIMIC licensing procedure is described in https://github.com/hidden-rad/Task1. 
 
-## Task 1. text File Description<br/>
-- Task1_test_dcm.txt: A list of MIMIC data for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_test.
+## Task 1. File description<br/>
+- Task1_test_dcm.txt: MIMIC data list for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_test.
 - Task1_test_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' and 'medical report' used in Task1_test.
 - Task1_train_dcm.txt: MIMIC data list for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_train.
 - Task1_train_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' and 'medical report' used in Task1_train.
@@ -18,7 +18,7 @@
 	>
 		 cd /path/to/your/directory
 
-4. Use the wget code to download the MIMIC data, where ${\textsf{\color{magenta}'username'}}$ is your account (ID) on Physionet, and ${\textsf{\color{magenta}'Task1.txt'}}$ is the file downloaded in step 2.
+4. Use the wget code to download the MIMIC data, where ${\textsf{\color{magenta}'username'}}$ is your account (ID) on Physionet, and ${\textsf{\color{magenta}'Task1_test_dcm.txt'}}$ is the file downloaded in step 2. For other files in task 1, repeat the file name in the above Task 1. File description.
 
 	>
 		wget -r -N -c -np --user 'username' --ask-password -i Task1.txt
