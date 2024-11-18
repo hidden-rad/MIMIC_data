@@ -12,13 +12,13 @@
 
 1. Prepare a MIMIC licensed account.
 
-2. Download the Task1.text file (train, test) according to the extension of the image you want to use (save it in the path to receive data)
+2. Download a Task1_*_*.txt file  depending on the extension of the image you want to use (save it in the path to receive data)
 
 3. Open a terminal, then set the path to save the data.
 	>
 		 cd /path/to/your/directory
 
-4. Use the wget code to download the MIMIC data, where ${\textsf{\color{magenta}'username'}}$ is your account (ID) on Physionet, and ${\textsf{\color{magenta}'Task1_test_dcm.txt'}}$ is the file downloaded in step 2. For other files in task 1, repeat the file name in the above Task 1. File description.
+4. Use the wget code to download the MIMIC data, where ${\textsf{\color{magenta}'username'}}$ is your account (ID) on Physionet, and ${\textsf{\color{magenta}'Task1_test_dcm.txt'}}$ is a file downloaded in step 2, for example. For other files in task 1, repeat the file name in the above "Task 1. File description".
 
 	>
 		wget -r -N -c -np --user 'username' --ask-password -i Task1.txt
