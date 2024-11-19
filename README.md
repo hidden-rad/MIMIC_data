@@ -14,7 +14,7 @@
 
 2. Download a Task1_\*_\*.txt file depending on the extension of the image you want to use a txt file in "Task 1. File description". 
 
-3. Open a terminal, then set the path to save the data.
+3. Open a terminal, then set the path to save the data. Locate the Task1_\*_\*.txt file in this directory for convenience. 
 	>
 		 cd /path/to/your/directory
 
