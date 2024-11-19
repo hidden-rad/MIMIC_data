@@ -21,7 +21,7 @@
 4. Use the wget code to download the MIMIC data, where ${\textsf{\color{magenta}'username'}}$ is your account (ID) on Physionet, and 'Task1_test_dcm.txt' is a file downloaded in step 2, for example. For other files in task 1, repeat the file name in the above "Task 1. File description".
 
 	>
-		wget -r -N -c -np --user 'username' --ask-password -i Task1.txt
+		wget -r -N -c -np --user 'username' --ask-password -i Task1_test_dcm.txt
 	
 	> 
 	
