@@ -12,7 +12,7 @@
 
 1. Prepare a MIMIC licensed account.
 
-2. Download a Task1_\*_\*.txt file depending on the extension of the image you want to use a txt file in "Task 1. File description". 
+2. Download a Task1_\*_\*.txt file depending on the extension of the image you want to use a txt file in "Task 1. Description of relevant file lists in MIMIC database". 
 
 3. Open a terminal, then set the path to save the data. Place the Task1_\*_\*.txt file in the same directory with the directory where you want to download the data. 
 	>
