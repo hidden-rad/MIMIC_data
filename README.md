@@ -7,7 +7,7 @@
 - Task1_test_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' and 'medical report' used in Task1_test.
 - Task1_train_dcm.txt: MIMIC data list for downloading 'dicom image (x-ray)' and 'medical report' used in Task1_train.
 - Task1_train_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' and 'medical report' used in Task1_train.
-- Task_reports.txt: MIMIC data list for the downloadin 'medical report' used by all Tasks.
+- Task_reports.txt: MIMIC data list for the downloading 'medical report' used by all Tasks.
 
 # Instructions
 
