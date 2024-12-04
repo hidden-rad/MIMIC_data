@@ -5,7 +5,7 @@
 ## Task 1. Description of relevant file lists in MIMIC database<br/>
 - Task1_MIMIC_dcm.txt: MIMIC data list for downloading 'dicom image (x-ray)' used in Task1.
 - Task1_MIMIC_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' used in Task1.
-- Task1_MIMIC_report_dcm.txt: MIMIC data list for downloading 'medical report (text)' used in Task1.
+- Task1_MIMIC_report.txt: MIMIC data list for downloading 'medical report (text)' used in Task1.
 
 # Instructions
 
