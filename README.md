@@ -3,12 +3,12 @@
 - The MIMIC licensing procedure is described in https://github.com/hidden-rad/Task1. 
 
 ## Task 1. Description of relevant file lists in MIMIC database<br/>
-1. Task1_1st_MIMIC_folder
+1. Task1_1st_release_MIMIC_data folder
  	- Task1_1st_MIMIC_dcm.txt: MIMIC data list for downloading 'dicom image (x-ray)' used in Task1_1st_release.
 	- Task1_1st_MIMIC_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' used in Task1_1st_release.
 	- Task1_1st_MIMIC_report.txt: MIMIC data list for downloading 'medical report (text)' used in Task1_1st_release.
 
-2. Task1_2nd_MIMIC_folder
+2. Task1_2nd_release_MIMIC_data folder
  	- Task1_2nd_MIMIC_dcm.txt: MIMIC data list for downloading 'dicom image (x-ray)' used in Task1_2nd_release.
 	- Task1_2nd_MIMIC_jpg.txt: MIMIC data list for downloading 'jpg image (x-ray)' used in Task1_2nd_release.
 	- Task1_2nd_MIMIC_report.txt: MIMIC data list for downloading 'medical report (text)' used in Task1_2nd_release.
