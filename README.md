@@ -1,4 +1,4 @@
-# How to get Task1 input data from the MIMIC database
+# How to get Task1: First release input data from the MIMIC database
 
 - The MIMIC licensing procedure is described in https://github.com/hidden-rad/Task1. 
 
