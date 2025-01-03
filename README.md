@@ -1,4 +1,5 @@
-# <strong>Notice: Updated due to a problem with the wget list. If you received data before 14:00 GMT+9 on 01/03/25, please update MIMIC data.</strong>
+# <strong>${\textsf{\color{Red}'Notice:'}}$ </strong>
+# <strong>Updated due to a problem with the wget list. If you received data before 14:00 GMT+9 on 01/03/25, please update MIMIC data.</strong>
 
 <br><br>
 
