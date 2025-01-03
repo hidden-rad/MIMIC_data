@@ -1,7 +1,5 @@
-<span style="color:red"> 
-<strong>Notice: Updated due to a problem with the wget list. 
-If you received data before 14:00 GMT+9 on 1/3/25, please update.</strong>
-</span>
+## <strong>Notice: Updated due to a problem with the wget list. If you received data before 14:00 GMT+9 on 1/3/25, please update.</strong>
+
 
 
 # How to get Task1: First release input data from the MIMIC database
